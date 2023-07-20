@@ -1,0 +1,92 @@
+{
+  "producto": [
+    {
+      "name": "Clone Helmet Mug",
+      "imageURL": "",
+      "price": "60.00",
+      "category": "Star Wars",
+      "Description": "",
+      "id": "1"
+    },
+    {
+      "name": "Xbox Controller",
+      "imageURL": "",
+      "price": "60.00",
+      "category": "Consolas",
+      "Description": "",
+      "id": "2"
+    },
+    {
+      "name": "Sonic Figure",
+      "imageURL": "",
+      "price": "60.00",
+      "category": "Diversos",
+      "Description": "",
+      "id": "3"
+    },
+    {
+      "name": "Grogu figure",
+      "imageURL": "http://127.0.0.1:5500/index.html",
+      "price": "30.00",
+      "category": "Star Wars",
+      "description": "This is 'The Child'",
+      "id": "9fda8b8c-5b19-4b2e-95c4-20a0ee83b9ba"
+    },
+    {
+      "name": "Falcon Spaceship",
+      "imageURL": "https://ugroocu",
+      "price": "23.00",
+      "category": "Star Wars",
+      "description": "The most ancient spaceship",
+      "id": "375d91aa-e629-4f05-b7de-2c01f854a4e0"
+    },
+    {
+      "name": "",
+      "imageURL": "",
+      "price": "",
+      "category": "",
+      "description": "",
+      "id": "c5d87264-00fb-4e58-a29e-8936199fee23"
+    },
+    {
+      "name": "Nintendo nes",
+      "imageURL": "http://127.0.0.1:5500/index.html",
+      "price": "130.00",
+      "category": "Consolas",
+      "description": "Nintendo 8 bits",
+      "id": "2c869c44-b7c1-4fef-8c9b-47848a423a20"
+    },
+    {
+      "name": "u",
+      "imageURL": "u",
+      "price": "u",
+      "category": "u",
+      "description": "u",
+      "id": "63d15b73-20c4-46fa-8c78-21baae35439e"
+    },
+    {
+      "name": "y",
+      "imageURL": "https://picsum.photos/200",
+      "price": "y",
+      "category": "y",
+      "description": "y",
+      "id": "a2992531-2dad-478b-aa4d-4d1f06eab433"
+    },
+    {
+      "name": "g",
+      "imageURL": "https://picsum.photos/seed/picsum/200/",
+      "price": "g",
+      "category": "g",
+      "description": "g",
+      "id": "ab6818a6-d40e-46db-b93b-66bf3a1758ab"
+    },
+    {
+      "name": "F",
+      "imageURL": "F",
+      "price": "F",
+      "category": "F",
+      "description": "F",
+      "id": "24efd17c-5262-48de-a537-e2d7f0dfdb44"
+    }
+  ]
+}

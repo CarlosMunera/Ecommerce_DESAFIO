@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AluraGeek E-commerce</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles_productos_administrar.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-principal container">
+                <div class="menu-principal__logo-input">
+                    <img class="menu-principal__logo" src="/img/Logo.png" alt="">
+                    <div class="menu-principal__input">
+                        <input type="text" placeholder="¿Que deseas buscar?">
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="menu-principal__login-busqueda">
+                    <a href="login.html" class="menu-principal__login">Menú Administrador</a>
+                    <a href="" class="menu-principal__busqueda"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="agregar-producto">
+        <h1 class="sr-only">Productos Administrar - AluraGeek E-commerce</h1>
+        <div class="agregar-producto__container container">
+            <form class="agregar-producto__form" action="productos.html" required data-form>
+                <h2>Agregar nuevo producto</h2>
+                <div class="agregar-producto__input_combo">
+                    <label for="url">URL de imagen</label>
+                    <input id="url" type="text" name="" required data-url>
+                </div>
+                <div class="agregar-producto__input_combo">
+                    <label for="categoria">Categoria</label>
+                    <input id="categoria" type="text" name="" class="" required data-categoria>
+                </div>
+                <div class="agregar-producto__input_combo">
+                    <label for="nombre">Nombre del producto</label>
+                    <input id="nombre" type="text" name="" required data-nombre>
+                </div>
+                <div class="agregar-producto__input_combo">
+                    <label for="precio">Precio del producto</label>
+                    <input id="precio" type="text" name="" required data-precio>
+                </div>
+                <textarea name="" id="descripcion" cols="30" rows="10" class="agregar-producto__input_combo" required placeholder="Descripción del producto" data-descripcion></textarea>
+                <input type="submit" value="Agregar producto">
+            </form>
+        </div>
+    </main>
+
+    <section class="contacto">
+        <div class="container">
+            <nav class="contacto__menu_secundario">
+                <div>
+                    <div class="contacto__menu_secundario_contenedorimagen">
+                        <img src="/img/Logo.png" alt="">
+                    </div>
+
+                    <ul class="contacto__menu_secundario_lista">
+                        <li class="contacto__menu_secundario_lista_item"><a href="#">Quienes Somos</a></li>
+                        <li class="contacto__menu_secundario_lista_item"><a href="#">Política de privacidad</a></li>
+                        <li class="contacto__menu_secundario_lista_item"><a href="#">Programa de fidelidad</a></li>
+                        <li class="contacto__menu_secundario_lista_item"><a href="#">Nuestras tiendas</a></li>
+                        <li class="contacto__menu_secundario_lista_item"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="contacto__menu_secundario_lista_item"><a href="#">Anuncie Aquí</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div>
+                <form class="contacto__formulario" action="">
+                    <h3>Hable con nosotros</h3>
+                    <div class="contacto__formulario_combo">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text ">
+                    </div>
+                    <textarea name="" id="" cols="" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                    <input type="submit" value="Enviar mensaje">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <p>Desarrollado por Carlos Múnera</p>
+        <p>2023</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/16fb7e63d7.js " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../controllers/productos.registro.js" type="module"></script>
+</body>
+
+</html>

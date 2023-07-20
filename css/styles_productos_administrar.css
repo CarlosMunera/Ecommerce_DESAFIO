@@ -51,9 +51,6 @@ a {
     margin: 0 auto;
 }
 
-
-/** MENU PRINCIPAL **/
-
 .menu-principal {
     display: flex;
     justify-content: space-between;
@@ -114,6 +111,12 @@ a {
     width: 15rem;
 }
 
+.menu-principal__login:hover {
+    color: var(--white);
+    background-color: var(--blue-primary-hover-desktop);
+    border-color: var(--blue-primary-hover-desktop);
+}
+
 .menu-principal__busqueda i {
     display: none;
 }
@@ -157,157 +160,127 @@ a {
 }
 
 
-/** HERO **/
+/** ADMINISTRAR PRODUCTO FORMULARIO **/
 
-.hero {
-    color: var(--white);
+.agregar-producto {
+    background-color: var(--blanco-05);
+}
+
+.agregar-producto__container {
+    display: flex;
+    justify-content: center;
+    padding: 8rem 0;
+}
+
+.agregar-producto__form {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    background-image: url(../img/bgHero.jpg);
-    height: 33.2rem;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    justify-content: center;
+    width: 55%;
 }
 
-.hero__titulo {
-    font-size: 5.2rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-}
-
-.hero__parrafo {
-    font-size: 2.2rem;
-    font-weight: 500;
+.agregar-producto__form h2 {
+    font-size: 3.2rem;
     margin-bottom: 1.5rem;
 }
 
-.hero__btn {
-    color: var(--white);
-    background-color: var(--blue-100);
-    display: inline-block;
-    padding: 1.5rem;
-    margin-bottom: 2.5rem;
-}
-
-@media screen and (max-width: 360px) {
-    .hero {
-        height: 19rem;
-    }
-    .hero__titulo {
-        font-size: 2.2rem;
-        font-weight: 700;
-        margin-bottom: 1.3rem;
-    }
-    .hero__parrafo {
-        font-size: 1.4rem;
-        font-weight: 500;
-        margin-bottom: 0.7rem;
-    }
-    .hero__btn {
-        color: var(--white);
-        background-color: var(--blue-100);
-        display: inline-block;
-        padding: 1.5rem;
-        margin-bottom: 1.4rem;
-    }
-}
-
-
-/** GALERIA **/
-
-.galeria {
-    padding: 4rem 0;
-}
-
-.galeria__lista {
-    margin-bottom: 6rem;
-}
-
-.galeria__lista_encabezado {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.galeria__lista_encabezado_titulo {
-    font-size: 3.2rem;
-    font-weight: 700;
-}
-
-.galeria__lista_encabezado_btn {
-    color: var(--blue-100);
-    font-style: 1.6rem;
-    font-weight: 700;
-}
-
-.galeria__lista_cards {
-    display: grid;
-    gap: 1rem;
-    grid-auto-rows: 24.5rem;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17.9rem), 1fr));
-    margin-top: 1rem;
-}
-
-.galeria__lista_card {
-    background-position: center center;
-    background-size: cover;
-    width: 17.6rem;
-}
-
-.galeria__lista_card_imagen {
-    background-color: var(--blanco-50);
-    height: 17.4rem;
-}
-
-.galeria__lista_card_texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.agregar-producto__input_combo {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--blanco-50);
     padding: 0.5rem 0;
-    height: 7.4rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
 }
 
-.galeria__lista_card_texto_prodnombre {
-    color: var(--black);
-    font-size: 1.4rem;
-    font-weight: 500;
+.agregar-producto__input_combo label {
+    color: var(--blanco-50);
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 100%;
 }
 
-.galeria__lista_card_texto_prodprecio {
+.agregar-producto__input_combo input {
+    border: 0;
     color: var(--black);
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 400;
+    outline: none;
+    width: 100%;
 }
 
-.galeria__lista_card_texto_prodver {
+.agregar-producto__form textarea {
+    border: 0;
+    border-bottom: 1px solid var(--blanco-50);
+    font-size: 1.6rem;
+    font-weight: 400;
+    outline: none;
+    height: 15rem;
+}
+
+.agregar-producto__form textarea::placeholder {
+    color: var(--blanco-50);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.agregar-producto__form input[type="submit"] {
+    color: var(--white);
+    border: 1px solid var(--blue-100);
+    background-color: var(--blue-100);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.agregar-producto__form input[type="submit"]:hover {
     color: var(--blue-100);
-    font-size: 1.6;
-    font-weight: 700;
+    background-color: var(--white);
+}
+
+@media (max-width: 1200px) {
+    .agregar-producto__form {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .agregar-producto__form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 850px) {
+    .agregar-producto__form {
+        width: 80%;
+    }
 }
 
 @media (max-width: 768px) {
-    .galeria__lista_cards {
-        grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+    .login-form input[type="submit"] {
+        width: 10.9rem;
     }
-    .galeria__lista_card {
-        width: 16.4rem;
-    }
-    .galeria__lista_card_imagen {
-        height: 16rem;
+    .agregar-producto__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
     }
 }
 
-@media (max-width: 364px) {
-    .galeria__lista_cards {
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 15.5rem), 1fr));
+@media (max-width: 440px) {
+    .login-form input {
+        width: 27.5rem;
     }
-    .galeria__lista_card {
-        width: 15.5rem;
-    }
-    .galeria__lista_card_imagen {
-        height: 15rem;
+}
+
+.agregar-producto__form h2 {
+    font-size: 2.2rem;
+}
+
+@media (max-width: 291px) {
+    .login-form input {
+        width: 100%;
     }
 }
 
@@ -333,7 +306,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding-right: 13rem;
-    height: 20rem;
+    height: 25rem;
 }
 
 .contacto__menu_secundario_lista {
@@ -356,7 +329,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 20rem;
+    height: 25rem;
 }
 
 .contacto__formulario h3 {
@@ -366,6 +339,7 @@ a {
 
 .contacto__formulario_combo {
     background-color: var(--white);
+    border-bottom: 1px solid var(--blanco-50);
     padding: 0.5rem 0;
     padding: 1rem;
 }
@@ -380,7 +354,7 @@ a {
     border: 0;
     color: var(--black);
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 700;
     outline: none;
     max-width: 100%;
 }
@@ -391,21 +365,40 @@ a {
 
 .contacto__formulario textarea {
     border: 0;
+    border-bottom: 1px solid var(--blanco-50);
+    color: var(--black);
+    font-size: 1.6rem;
+    font-weight: 700;
     outline: 0;
     width: 100%;
     padding: 1rem;
 }
 
 .contacto__formulario textarea::placeholder {
+    color: var(--blanco-50);
     font-size: 1.6rem;
+    font-weight: 400;
 }
 
 .contacto__formulario input[type=submit] {
     background-color: var(--blue-100);
+    border: 1px solid var(--blue-100);
     color: var(--white);
     outline: none;
     padding: 1rem;
     width: 15rem;
+}
+
+.contacto__formulario input[type=submit]:hover {
+    color: var(--blue-100);
+    background-color: var(--white);
+    border: 1px solid var(--blue-100);
+}
+
+@media (max-width: 1437px) {
+    .contacto__menu_secundario div {
+        padding-right: 8rem;
+    }
 }
 
 @media (max-width: 1300px) {
@@ -414,9 +407,21 @@ a {
     }
 }
 
+@media (max-width: 1233px) {
+    .contacto__menu_secundario div {
+        padding-right: 7rem;
+    }
+}
+
+@media (max-width: 1131px) {
+    .contacto__menu_secundario div {
+        padding-right: 4rem;
+    }
+}
+
 @media (max-width: 1070px) {
     .contacto__menu_secundario div {
-        padding-right: 3rem;
+        padding-right: 2rem;
     }
 }
 
@@ -437,6 +442,10 @@ a {
         padding-right: 0;
         height: 28rem;
     }
+    .contacto__menu_secundario_contenedorimagen img {
+        width: 18rem;
+        height: 6rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -444,7 +453,6 @@ a {
         display: grid;
         grid-template-columns: 35% 65% auto;
     }
-    .contacto__formulario input[type=submit] {}
 }
 
 @media (max-width: 705px) {
@@ -463,7 +471,6 @@ a {
     .contacto .container {
         display: grid;
         grid-template-columns: 1fr;
-        ;
     }
     .contacto__menu_secundario_lista {
         margin-bottom: 10rem;
@@ -479,6 +486,8 @@ a {
         margin-bottom: 1rem;
     }
 }
+
+@media (max-width: 440px) {}
 
 footer {
     text-align: center;
