@@ -14,7 +14,7 @@ formulario.addEventListener("submit", (evento) => {
     const descripcion = document.querySelector("[data-descripcion]").value;
 
     clientServices.registrarProducto(nombre, url, precio, categoria, descripcion).then(respuesta => {
-        window.location.href = "../screens/productos.html";
+        window.location.href = "./screens/productos.html";
         alert("Nuevo producto registrado");
     }).catch(err => console.log(err))
 });

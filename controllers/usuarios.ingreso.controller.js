@@ -1,5 +1,5 @@
 import { clientServices } from "../service/client-service.js";;
-alert("prueba");
+
 
 const form = document.querySelector("[data-form]");
 
@@ -20,7 +20,7 @@ form.addEventListener("submit", (evento) => {
             if (usuarioExistente) {
                 sessionStorage.setItem('logueado', "si");
                 console.log(sessionStorage);
-                window.location.href = "productos.html";
+                window.location.href = "../screens/productos.html";
             } else {
                 alert("Usuario y/o contraseña incorrecta");
             }

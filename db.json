@@ -1,70 +1,128 @@
 {
-    "producto": [{
-            "name": "Clone Helmet Mug",
-            "imageURL": "",
-            "price": "60.00",
-            "category": "Star Wars",
-            "Description": "",
-            "id": "1"
-        },
-        {
-            "name": "Xbox Controller",
-            "imageURL": "",
-            "price": "60.00",
-            "category": "Consolas",
-            "Description": "",
-            "id": "2"
-        },
-        {
-            "name": "Prueba",
-            "imageURL": "https://fakeimg.pl/200/",
-            "price": "13.00",
-            "category": "Nueva",
-            "description": "Esto es una prueba",
-            "id": "b317e952-c23d-459f-8370-0f19723118ab"
-        },
-        {
-            "name": "Juguetico",
-            "imageURL": "https://fakeimg.pl/200/",
-            "price": "1200",
-            "category": "Propia",
-            "description": "JAJA",
-            "id": "6552f217-0b6e-48e6-b6d6-bf5a4a73593c"
-        },
-        {
-            "name": "xxxxx",
-            "imageURL": "https://fakeimg.pl/200/",
-            "price": "1010",
-            "category": "otra",
-            "description": "otro",
-            "id": "2b126589-0120-4839-a2a5-7471796e956c"
-        },
-        {
-            "name": "Peter",
-            "imageURL": "https://fakeimg.pl/200/",
-            "price": "23.00",
-            "category": "Star Wars",
-            "description": "Hola\n",
-            "id": "8d92eaee-c47c-4533-9f07-553d62d4188e"
-        }
-    ],
-    "usuario": [{
-            "mail": "admin@mail.com",
-            "name": "John",
-            "password": "123",
-            "id": "001"
-        },
-        {
-            "mail": "carlos@mail.com",
-            "name": "Carlos",
-            "password": "321",
-            "id": "002"
-        },
-        {
-            "mail": "alura@gmail.com",
-            "name": "Alura",
-            "password": "987",
-            "id": "003"
-        }
-    ]
+  "producto": [
+    {
+      "name": "Clone Helmet Mug",
+      "imageURL": "",
+      "price": "60.00",
+      "category": "Star Wars",
+      "Description": "",
+      "id": "1"
+    },
+    {
+      "name": "Xbox Controller",
+      "imageURL": "",
+      "price": "60.00",
+      "category": "Consolas",
+      "Description": "",
+      "id": "2"
+    },
+    {
+      "name": "Prueba",
+      "imageURL": "https://fakeimg.pl/200/",
+      "price": "13.00",
+      "category": "Nueva",
+      "description": "Esto es una prueba",
+      "id": "b317e952-c23d-459f-8370-0f19723118ab"
+    },
+    {
+      "name": "Juguetico",
+      "imageURL": "https://fakeimg.pl/200/",
+      "price": "1200",
+      "category": "Propia",
+      "description": "JAJA",
+      "id": "6552f217-0b6e-48e6-b6d6-bf5a4a73593c"
+    },
+    {
+      "name": "xxxxx",
+      "imageURL": "https://fakeimg.pl/200/",
+      "price": "1010",
+      "category": "otra",
+      "description": "otro",
+      "id": "2b126589-0120-4839-a2a5-7471796e956c"
+    },
+    {
+      "name": "Peter",
+      "imageURL": "https://fakeimg.pl/200/",
+      "price": "23.00",
+      "category": "Star Wars",
+      "description": "Hola\n",
+      "id": "8d92eaee-c47c-4533-9f07-553d62d4188e"
+    },
+    {
+      "name": "3",
+      "imageURL": "https://fakeimg.pl/200/",
+      "price": "3",
+      "category": "3",
+      "description": "3",
+      "id": "b31ad7c4-ab57-4216-ac1a-d0812047a0c5"
+    },
+    {
+      "name": "s",
+      "imageURL": "https://fakeimg.pl/200/",
+      "price": "s",
+      "category": "Star Wars",
+      "description": "g",
+      "id": "bd6ae13d-acfa-4b3b-8b4f-2bf0b4a4ad21"
+    },
+    {
+      "name": "s",
+      "imageURL": "s",
+      "price": "s",
+      "category": "s",
+      "description": "s",
+      "id": "1f296825-b92e-44cc-830a-00902f7a157c"
+    },
+    {
+      "name": "s",
+      "imageURL": "s",
+      "price": "s",
+      "category": "s",
+      "description": "s",
+      "id": "433332d3-03a9-4bf4-9fb3-2496d4f9904a"
+    },
+    {
+      "name": "t",
+      "imageURL": "t",
+      "price": "t",
+      "category": "t",
+      "description": "t",
+      "id": "930423a1-0a01-4dc5-825f-38d3e022a2ef"
+    },
+    {
+      "name": "Prueba nueva",
+      "imageURL": "https://fakeimg.pl/200/",
+      "price": "23.00",
+      "category": "otra mas",
+      "description": "Otro mas",
+      "id": "4f9c19ba-8b09-4d23-8a0a-fe5c5f3bb487"
+    },
+    {
+      "name": "e",
+      "imageURL": "e",
+      "price": "e",
+      "category": "e",
+      "description": "e",
+      "id": "64408bb4-43ed-4ec1-8f37-6eb291c45631"
+    }
+  ],
+  "usuario": [
+    {
+      "mail": "admin@mail.com",
+      "name": "John",
+      "password": "123",
+      "id": "001"
+    },
+    {
+      "mail": "carlos@mail.com",
+      "name": "Carlos",
+      "password": "321",
+      "id": "002"
+    },
+    {
+      "mail": "alura@gmail.com",
+      "name": "Alura",
+      "password": "987",
+      "id": "003"
+    }
+  ]
 }
