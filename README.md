@@ -6,11 +6,9 @@ Desarrollo realizado para el reto "Challenge ONE Front-end Sprint 02", del progr
 ![Imagem diseño web](img/preview.PNG)
 
 
-##Funcionalidades en javascript imlementadas
-* Login de usuario
-* Generacion dinámica de los productos registrados en la API desde la vista "productos.html".
-* 
-
+## Funcionalidades en javascript imlementadas
+ * Login de usuario con sesion.
+ * Generacion dinámica de los productos registrados en la API desde la vista "productos.html".
 
 ## Requerimientos para probar este desarrollo:
 * Git.
@@ -21,7 +19,7 @@ Desarrollo realizado para el reto "Challenge ONE Front-end Sprint 02", del progr
 * Clonar proyecto
 * Abrir proyecto en Visual Studio Code
 * Abrir terminal e iniciar servidor Json-server comando:  json-server --watch db.json
-* Seleccionar archivo index.html con cliec derecho y abrirlo con Liver server (plugin para visualstudio code).
+* Seleccionar archivo index.html con clic derecho y abrirlo con Liver server (plugin para visualstudio code).
 
 ## Tecnologías Utilizadas:
 
