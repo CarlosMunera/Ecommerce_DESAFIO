@@ -42,6 +42,14 @@ a {
     text-decoration: none;
 }
 
+.sr-only {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
 
 /*  */
 

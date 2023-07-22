@@ -5,10 +5,23 @@ Desarrollo realizado para el reto "Challenge ONE Front-end Sprint 02", del progr
 
 ![Imagem diseño web](img/preview.PNG)
 
-## Requerimientos:
+
+##Funcionalidades en javascript imlementadas
+* Login de usuario
+* Generacion dinámica de los productos registrados en la API desde la vista "productos.html".
+* 
 
 
+## Requerimientos para probar este desarrollo:
+* Git.
+* Visual Studio Code. (Con plugin live server instalado).
+* Node JS (Dependencia: JSON server instalada)
 
+## Configuración para prueba local del proyecto:
+* Clonar proyecto
+* Abrir proyecto en Visual Studio Code
+* Abrir terminal e iniciar servidor Json-server comando:  json-server --watch db.json
+* Seleccionar archivo index.html con cliec derecho y abrirlo con Liver server (plugin para visualstudio code).
 
 ## Tecnologías Utilizadas:
 

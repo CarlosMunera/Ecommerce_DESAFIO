@@ -1,3 +1,5 @@
+/** PRODUCTOS **/
+
 //Get
 const generarListaCompletaCards = () => fetch("http://localhost:3000/producto").then(respuesta => respuesta.json());
 
@@ -13,7 +15,17 @@ const registrarProducto = (name, imageURL, price, category, description) => {
 };
 
 
+
+/** USUARIOS **/
+
+const generarListaUsuarios = () => fetch("http://localhost:3000/usuario").then(respuesta => respuesta.json());
+
+
+
+
+
 export const clientServices = {
     generarListaCompletaCards,
+    generarListaUsuarios,
     registrarProducto,
 };
