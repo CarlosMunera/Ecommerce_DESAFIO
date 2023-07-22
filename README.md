@@ -1,4 +1,4 @@
-# Challenge ONE Front-End Sprint 02 - AluraGeek: Creando tu proprio e-commerce.
+# Challenge ONE Front-End Sprint 02 - AluraGeek: Creando tu propio e-commerce.
 
 ## Construye un e-commerce
 Desarrollo realizado para el reto "Challenge ONE Front-end Sprint 02", del programa ALURA + Oracle Next Education * Educación y empleabilidad *.
