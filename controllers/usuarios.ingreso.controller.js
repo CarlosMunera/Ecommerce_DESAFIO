@@ -1,4 +1,5 @@
-import { clientServices } from "../service/client-service.js";
+import { clientServices } from "../service/client-service.js";;
+alert("prueba");
 
 const form = document.querySelector("[data-form]");
 
