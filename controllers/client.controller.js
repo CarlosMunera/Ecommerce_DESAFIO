@@ -26,7 +26,7 @@ clientServices.generarListaCompletaCards()
             const nuevaCard = crearNuevaCard(producto.imageURL, producto.name, producto.price);
             listaCards.appendChild(nuevaCard);
         });
-    }).catch((error) => alert(`Ocurrió un error: por favor verifique disponibilidad de la API o siga las intrucciones para poder ver los productos generados dinamicamente.`));
+    }).catch((error) => alert(`Ocurrió un error: por favor verifique disponibilidad de la API o siga las intrucciones de configuración para la prueba local de este proyecto, así se podrán ver los productos generados dinámicamente.`));
 
 
 
