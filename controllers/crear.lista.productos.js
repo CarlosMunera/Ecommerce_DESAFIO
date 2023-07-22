@@ -1,5 +1,3 @@
-alert("prueba");
-
 import { clientServices } from "../service/client-service.js";
 
 const crearListaCards = (categoria) => {
@@ -53,7 +51,7 @@ clientServices.generarListaCompletaCards()
             contenedorListas.appendChild(crearListaCards(categoria));
 
         });
-    }).catch((error) => alert(`Ocurrió un error: por favor verifique disponibilidad de la API o siga las intrucciones para poder ver los productos generados dinamicamente.`));
+    }).catch((error) => alert(`Ocurrió un error: por favor verifique disponibilidad de la API o siga las intrucciones para poder ver los productos generados dinamicamente,realizar login y registrar nuevos productos.`));
 
 
 

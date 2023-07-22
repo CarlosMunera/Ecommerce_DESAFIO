@@ -23,5 +23,5 @@ form.addEventListener("submit", (evento) => {
             } else {
                 alert("Usuario y/o contraseña incorrecta");
             }
-        }).catch((err) => { "Ocurrió un error: por favor verifique disponibilidad de la API o siga las intrucciones para realizar inicio de sesión" })
+        }).catch((err) => { "Ocurrió un error: por favor verifique disponibilidad de la API o siga las intrucciones para poder ver los productos generados dinamicamente,realizar login y registrar nuevos productos." })
 });
