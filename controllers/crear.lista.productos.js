@@ -1,3 +1,5 @@
+alert("prueba");
+
 import { clientServices } from "../service/client-service.js";
 
 const crearListaCards = (categoria) => {
