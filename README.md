@@ -3,6 +3,11 @@
 ## Construye un e-commerce
 Desarrollo realizado para el reto "Challenge ONE Front-end Sprint 02", del programa ALURA + Oracle Next Education * Educación y empleabilidad *.
 
+* En éste desafío desarrollarás un e-commerce! Para apoyarte en ésta tarea hemos dividido el desafio en dos sprint:
+
+    Sprint 2: Te enfocarás en la estilización.
+    Sprint 3: Desarrollarás las funcionalidades, usando javascript.
+
 ![Imagem diseño web](img/preview.PNG)
 
 
