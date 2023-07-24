@@ -1,20 +1,5 @@
 import { clientServices } from "../service/client-service.js";
 
-const crearListaCards = (categoria) => {
-    const lista = document.createElement("div");
-    lista.classList.add("galeria__lista");
-    const contenidoLista = `
-        <div class="galeria__lista_encabezado">
-            <h2 class="galeria__lista_encabezado_titulo">${categoria}</h2>
-            <a href="../screens/productos.html" class="galeria__lista_encabezado_btn">Ver todo -></a>
-        </div>
-        <div class="galeria__lista_cards" data-cards>
-        
-        </div>
-    `;
-    lista.innerHTML = contenidoLista;
-    return lista;
-}
 
 const crearNuevaCard = (imageURL, nombre, precio) => {
     const card = document.createElement("div");
@@ -34,9 +19,27 @@ const crearNuevaCard = (imageURL, nombre, precio) => {
     return card;
 };
 
+const crearListaCards = (categoria) => {
+    const lista = document.createElement("div");
+    lista.classList.add("galeria__lista");
+    const contenidoLista = `
+        <div class="galeria__lista_encabezado">
+            <h2 class="galeria__lista_encabezado_titulo">${categoria}</h2>
+            <a href="../screens/productos.html" class="galeria__lista_encabezado_btn">Ver todo -></a>
+        </div>
+        <div class="galeria__lista_cards" data-cards>
+        </div>
+    `;
+    lista.innerHTML = contenidoLista;
+    return lista;
+}
+
+
+
 
 const contenedorListas = document.querySelector("[data-contenedorlistas]");
 const listaCards = document.querySelector("[data-cards]");
+let nuevaCard;
 
 clientServices.generarListaCompletaCards()
     .then((data) => {
@@ -47,10 +50,18 @@ clientServices.generarListaCompletaCards()
             productosPorCategorias.push(producto);
             listaCategorias.push(producto.category);
         });
-        listaCategorias.forEach(categoria => {
+        const listaCategoriasNoDuplicados = [...new Set(listaCategorias)];
+        listaCategoriasNoDuplicados.forEach(categoria => {
             contenedorListas.appendChild(crearListaCards(categoria));
-
+            productosPorCategorias.forEach((producto) => {
+                if (producto.category == categoria) {
+                    console.log
+                    nuevaCard = crearNuevaCard(producto.imageURL, producto.name, producto.price);
+                    listaCards.appendChild(nuevaCard);
+                }
+            })
         });
+
     }).catch((error) => alert(`Ocurrió un error: por favor verifique disponibilidad de la API o siga las intrucciones para poder ver los productos generados dinamicamente,realizar login y registrar nuevos productos.`));
 
 

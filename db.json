@@ -3,7 +3,7 @@
             "name": "Nintendo Nes",
             "imageURL": "/img/consola7.png",
             "price": "60.00",
-            "category": "Star Wars",
+            "category": "Consolas",
             "Description": "",
             "id": "1"
         },
@@ -11,7 +11,7 @@
             "name": "Sega Genesis",
             "imageURL": "/img/consola8.png",
             "price": "60.00",
-            "category": "Consolas",
+            "category": "Otro",
             "Description": "",
             "id": "2"
         }
