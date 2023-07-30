@@ -11,9 +11,11 @@ Desarrollo realizado para el reto "Challenge ONE Front-end Sprint 02", del progr
 ![Imagem diseño web](img/preview.PNG)
 
 
-## Funcionalidades en javascript imlementadas
+## Funcionalidades en javascript implementadas
  * Login de usuario con sesion.
- * Generacion dinámica de los productos registrados en la API desde la vista "productos.html".
+   (Correo: admin@mail.com, Password: 123);
+ * Generacion dinámica de los productos registrados en la API desde la vista "productos.html". (Requiere estar previamente logueado).
+ * Validación de formularios de contacto.
 
 ## Requerimientos para probar este desarrollo:
 * Git.

@@ -66,14 +66,16 @@
                 </div>
             </nav>
             <div>
-                <form class="contacto__formulario" action="../screens/productos.html">
+                <form class="contacto__formulario" action="">
                     <h3>Hable con nosotros</h3>
                     <div class="contacto__formulario_combo">
                         <label for="nombre">Nombre</label>
-                        <input id="nombre" type="text ">
+                        <input id="nombre" type="text " name="nombre">
                     </div>
-                    <textarea name="" id="" cols="" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                    <textarea name="mensaje" id="mensaje" cols="" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                    <span id="error"></span>
                     <input type="submit" value="Enviar mensaje">
+
                 </form>
             </div>
         </div>

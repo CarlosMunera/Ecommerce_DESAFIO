@@ -43,3 +43,5 @@ if (window.sessionStorage) {
         btnAgregar.classList.add("disabled");
     }
 }
+
+//validar formulario
